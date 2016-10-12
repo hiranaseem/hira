@@ -15,6 +15,12 @@ bool odd(int x)//initialise function odd,  return type bool, takes in an int x
 
 }
 
+void print_oddness(int x)//function will print if number is odd/even
+{ 
+	count << x << "is" << (odd(x)?"odd":"even")<<endl;
+	
+}
+
 
 
 int main()//main method
@@ -25,7 +31,8 @@ int main()//main method
 	cin >> x;//input c
 	
 
-		cout << x<< " is"<<(odd(x)?" odd":" even")<<endl;//print odd				//condition ? result_if_true : result_if_false		
+	print_oddness(x);
+	print_oddness(x+1);	
 				
 		
 	
