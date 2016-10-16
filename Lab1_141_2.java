@@ -1,7 +1,7 @@
 package s1;
 
 import java.util.Scanner;
-/*
+/* Year 1
  * Simple program to print a list
  */
 
