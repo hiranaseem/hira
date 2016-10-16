@@ -1,6 +1,6 @@
 
 package s1;
-/*
+/*Year 1
  * Simple Program to print the sum and product
  * of two whole numbers
  */
