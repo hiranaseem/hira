@@ -1,6 +1,6 @@
 package s1;
-/*
- * Java program that prints out all numbers from 50 to 150 in steps of 3 (50, 53, 56,…) 
+/*Year 1
+ * Java program that prints out all numbers from 50 to 150 in steps of 3 (50, 53, 56,â€¦) 
  * using a while loop.
  */
 public class Lab4_141_5 
