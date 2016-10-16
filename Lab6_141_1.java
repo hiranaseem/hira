@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * program that uses a for-loop to print the numbers from 100 to 999 to the screen in order, 
  * separated by three spaces.
  */
