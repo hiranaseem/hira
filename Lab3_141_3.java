@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Simple program to see if age is greater or less than 18
  */
 
