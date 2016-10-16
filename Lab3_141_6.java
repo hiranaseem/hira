@@ -1,6 +1,6 @@
 package s1;
 import java.util.*;
-/*
+/*Year 1
  * Simple program to determine if a number is odd
  * or even
  */
