@@ -1,6 +1,6 @@
 package s1;
-/*
- * print out whether a number 
+/*Year 1
+ * print out whether a number is negative/positive/zero
  */
 public class Lab3_141_5 
 
