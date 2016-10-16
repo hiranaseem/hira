@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Switch statement to print a month of the year given a value
  * between 1 and 12
  */
