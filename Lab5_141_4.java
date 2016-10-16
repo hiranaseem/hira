@@ -1,3 +1,9 @@
+
+/*
+Year 1
+Use while loop to print digits of a number
+*/
+
 package s1;
 
 public class Lab5_141_4
