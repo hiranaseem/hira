@@ -1,3 +1,8 @@
+/*
+Year 1
+Print all digits of 4 digit numbers
+*/
+
 package s1;
 
 public class Lab6_141_5 
