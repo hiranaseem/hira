@@ -1,7 +1,7 @@
 package s1;
-/*
+/*Year 1
  * Lab to check what operator is being used and 
- * ro perform that operation
+ * to perform that operation
  */
 public class Lab4_141_2 
 
