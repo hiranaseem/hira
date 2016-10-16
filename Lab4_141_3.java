@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * program checks to see if all, or at least one age is over 18
  */
 
