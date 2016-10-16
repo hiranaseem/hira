@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Simple program that prints the average/sum/product
  * of 6 decimal point numbers
  */
