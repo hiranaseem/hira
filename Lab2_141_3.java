@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Simple Program to declares five character variables each storing a vowel
  */
 public class Lab2_141_3 
