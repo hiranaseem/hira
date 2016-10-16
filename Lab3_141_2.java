@@ -1,3 +1,9 @@
+/*
+Year 1
+Program to print digits of a 3 digit number
+*/
+
+1111
 package s1;
 
 public class Lab3_141_2 
