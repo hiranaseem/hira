@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Java program that uses a while-loop to check all numbers between 0 and 999 
  * inclusive to see if they are a multiple of 4.
  */
