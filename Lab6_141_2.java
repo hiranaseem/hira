@@ -1,6 +1,7 @@
 package s1;
-/*program that uses a for-loop to print all the even numbers between 100 and 1000 
- * (one per line) to the screen in descending order – 
+/*Year 1
+ * Program that uses a for-loop to print all the even numbers between 100 and 1000 
+ * (one per line) to the screen in descending order â€“ 
  * you must use an if statement.
  * 
  */
