@@ -1,6 +1,6 @@
 package s1;
 
-/*
+/*Year 1
  * Sample questions using modulus, print answers
  */
 public class Lab2_141_5 
