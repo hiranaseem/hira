@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Simple program to compute and display the number of seconds in a year.
  */
 
