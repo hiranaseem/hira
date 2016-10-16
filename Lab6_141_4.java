@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Java program that determines and prints 
  * the digits that make up every three-digit number.
  * 
