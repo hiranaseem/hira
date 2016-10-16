@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Java program that uses a while-loop to print the numbers from 100 to 999 to the screen on the same line, 
  * separated by three spaces.
  */
