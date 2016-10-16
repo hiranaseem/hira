@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * Program to print the digits of a 4 digit number
  */
 
