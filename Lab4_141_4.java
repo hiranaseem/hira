@@ -1,5 +1,5 @@
 package s1;
-/*
+/*Year 1
  * check if a number is a 3 or 4 digit number
  */
 
