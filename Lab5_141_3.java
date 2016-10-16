@@ -1,3 +1,8 @@
+/*
+Year 1
+Program to find odd numbers between 0 to 50 inclusive
+*/
+
 package s1;
 
 public class Lab5_141_3 
