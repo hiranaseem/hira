@@ -1,0 +1,54 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+// Add EMGUCV
+using Emgu.CV.Structure;
+using Emgu.CV.CvEnum;
+
+
+namespace Stereo
+{
+    public partial class Form1 : Form
+    {
+        private Emgu.CV.Capture capture;
+        Emgu.CV.Image<Bgr, Byte> colourframe_new;
+        //Emgu.CV.Image<Bgr, Byte> colourframe_old;
+        //Emgu.CV.Image<Gray, byte> grayframe1;
+        //Emgu.CV.Image<Gray, byte> grayframe2;
+        //Emgu.CV.Image<Gray, byte> diff;
+        int framenumber;
+
+
+        public Form1()
+        {
+            InitializeComponent();
+            //capture = new Emgu.CV.Capture("C:\\Downloads\\AW0022.avi");
+            capture = new Emgu.CV.Capture(@"C:\Downloads\AW0022.mp4");
+            //capture = "C:\\Downloads\\AW0022.avi";
+            capture.SetCaptureProperty(Emgu.CV.CvEnum.CAP_PROP.CV_CAP_PROP_POS_FRAMES, framenumber);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            colourframe_new = capture.QueryFrame();
+
+            //grayframe1 = colourframe_new.Convert<Emgu.CV.Structure.Gray, byte>();
+            //grayframe2 = colourframe_old.Convert<Emgu.CV.Structure.Gray, byte>();
+            //diff = grayframe1.Clone();
+            //Emgu.CV.CvInvoke.cvAbsDiff(grayframe1, grayframe2, diff);
+           // grayframe2 = grayframe1.Clone();
+
+            Emgu.CV.CvInvoke.cvLine(colourframe_new, new Point(colourframe_new.Width / 2, colourframe_new.Height), new Point(colourframe_new.Width / 2, 0), new MCvScalar(0, 255, 0), 2, LINE_TYPE.EIGHT_CONNECTED, 0);
+
+            pictureBox1.Image = colourframe_new.ToBitmap();
+
+            pictureBox1.Invalidate();
+        }
+    }
+}
